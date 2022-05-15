@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    width: 50vh;
+    height: 100vh;
+    background-color: #060606;
+    float: left;
+}
+
+.avatar {
+    border: solid 2px;
+    border-radius: 100vh;
+    border-color: white;
+    width: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 23%;
+}
+
+.xiung {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 7vh;
+    text-align: center;
+    position: relative;
+    top: 23%;
+}
+
+.sidebar h6 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 2vh;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.part {
+    float: left;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 3vh;
+    margin-left: 4vh;
+    margin-top: 3vh;
+}
+
+.two {
+    margin-top: 10vh;
+}
+
+.two .intro-title {
+    color: #ff9e4a;
+}
+
+.intro-title {
+    font-weight: 900;
+    display: inline;
+    color: #517AFF;
+}
+
+.nova-title {
+    font-weight: 900;
+    display: inline;
+    color: #fa00e1;
+}
+
+@media screen and (max-width: 728px) {
+    .sidebar {
+        width: 100%;
+        height: 24vh;
+    }
+    .avatar {
+        width: 12vh;
+        margin-left: 5vh;
+    }
+    .xiung {
+        font-size: 5vh;
+        text-align: right;
+        position: relative;
+        top: -15%;
+        margin-right: 5vh;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .part {
+        margin-left: 0;
+        text-align: center;
+        position: absolute;
+        top: 25vh;
+        left: 10%;
+        right: 10%;
+    }
+    .two {
+        margin-top: 80vh;
+    }
+    .intro-content {
+        margin-top: 4vh;
+        font-size: 2.5vh;
+    }
+    .sidebar h6 {
+        font-size: 2vh;
+        text-align: right;
+        position: relative;
+        top: -14%;
+        right: 5vh;
+    }
+}
